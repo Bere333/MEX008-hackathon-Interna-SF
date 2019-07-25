@@ -70,4 +70,7 @@ realizarCalculo.addEventListener("click", () => {
     root.innerHTML = montoM;
     
 }) 
+document.getElementById("finan").addEventListener("click", () => {
 
+    const guardarIn = localStorage.setItem("monito", "value");
+})

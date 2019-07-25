@@ -412,6 +412,49 @@
     position: relative;
     bottom: -30px;
  }
+ /*SECCIÓN FINANZAS PERSONALES*/
+ table {
+    width: 110px;
+    border-collapse: collapse;
+    border: 3px solid #DFFBFF;
+    position: relative;
+    left: 30px;
+ }
+ .background-table{
+   background-color: #DFFBFF;
+ }
+ .organizacion{
+     text-align: center;
+     vertical-align: top;
+     border-collapse: collapse;
+     position: absolute;
+     background-color: rgb(126, 219, 233);
+     
+ }
+ .ingreso{
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    background-color: rgb(126, 219, 233);
+ }
+td {
+    width: 30%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(126, 219, 233);        
+ }
+ tr{
+   border: 1px solid rgb(126, 219, 233);
+   width: 30%;
+
+ }
+ input{
+   width: 85%;
+ }
+ .icon-table img{
+   width: 50%;
+   margin-left: 19%;
+ }
 
  
 }
