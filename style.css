@@ -34,7 +34,7 @@
     .wayak-1{
         position: relative;
         left:100px ;
-        bottom: -40px;
+        bottom: -10px;
         font-size: 40px;
         color: white; 
     }
@@ -145,7 +145,7 @@
         background-image: url("img/degrade-bleu2.jpg");
         background-size: cover;
         width: 420px;
-        height: 90px;
+        height: 60px;
         position: relative;
         left: -10px;
         bottom: 40px;
@@ -299,6 +299,7 @@
     width: 110px;
     position: relative;
     left: 60px;
+    bottom: 110px;
     border-radius: 5px;
     background-color: #DFFBFF;
     border: none;
@@ -311,9 +312,36 @@
     display: inline;
     position: relative;
     left: 60px;
+    bottom: 110px;
     border-radius: 5px;
  }
  #retiro{
-    text-align: right;
+    position: relative;
+    left:110px ;
+    bottom:60px;
+    font-size: 13px;
+ }
+ .medidas-ter{
+     width: 100px;
+     height: 50px;
+     font-size: 11px;
+     position: relative;
+     left: 180px;
+     bottom: 60px;
+
+ }
+ .mece{
+    background-color: #98E0ED;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    position: relative;
+    left: 20px;
+    bottom: -15px;
+ }
+ .clo{
+     position: relative;
+     left:50px;
+     bottom: 90px;
  }
 }
