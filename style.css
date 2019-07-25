@@ -150,6 +150,16 @@
         left: -10px;
         bottom: 40px;
     }
+    .azul-2{
+        background-image: url("img/degrade-bleu2.jpg");
+        background-size: cover;
+        width: 420px;
+        height: 60px;
+        position: relative;
+        left: -10px;
+        bottom: 40px;
+        font-size: 10px
+    }
     .blanco{
         background-color: white;
         width: 420px;
@@ -194,14 +204,14 @@
         background-color: white;
           width: 411px;
           height: 600px;
-          position: relative;
-          left: -10px;
-          bottom: 40px;
+          
       }
       .dreams{
          font-family: 'Ruda', sans-serif;
          text-align:  center;
          padding-top: 10px;
+         position: relative;
+         left: -50px;
       }
       .btn-travel{
         background-color: #DFFBFF;
@@ -214,7 +224,6 @@
       }
       .btn-travel img{
         width: 90%;
-        position: absolute;
         margin-left: 5%;
         margin-top: 5%;
       }
@@ -229,7 +238,6 @@
       }
       .btn-house img{
         width: 95%;
-        position: absolute;
         margin-left: 5%;
         margin-top: 5%;
       }
@@ -246,7 +254,6 @@
   
       .btn-car img{
         width: 90%;
-        position: absolute;
         margin-left: 4%;
         margin-top: 4%;
       }
@@ -262,9 +269,12 @@
       }
       .btn-retirement img{
         width: 87%;
-        position: absolute;
         margin-top: 6%;
         margin-left: 7%;
+      }
+      #btn{
+          position: relative;
+          left: -20px;
       }
       .blanco-1{
         background-color: white;
