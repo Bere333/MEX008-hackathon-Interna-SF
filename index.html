@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ruda&display=swap" rel="stylesheet">
+
+    <title>Salud Financiera</title>
+</head>
+<body>
+    <!--Sección de inicio-->
+    <section class="first-section" id="first-section">
+        <h1 class="wayak">Wayak</h1>
+        <!--Modal-->
+        <div class="info"><a href="#info" class="info-link">Info</a>
+            <div id="info" class="modal">
+                <div class="info-contenido">
+                        <a href="#" id="x">X</a>
+                        <p class="info-pa"><center>INFO</center><br>Wayak es una aplicación<br>
+                            web que permitirá a las<br>
+                            laboratorianas, egresadas, cumplir 
+                            sus sueños <br>financieros, a través de<br>
+                             la educación financiera.</p>
+                </div>
+            </div>
+        </div>
+        <img src="img/Yellow_Star.png" alt="" width="30" height="30" class="star">
+        <img src="img/Yellow_Star.png" alt="" width="30" height="30" class="star1">
+        <div class="limite">
+            <p class="sue">El límite son las<br>estrellas...<br>tus sueños son<br>posibles con Wayak</p>
+            <button class="tabla" id="tabla">Finanzas personales</button>
+            <button class="seguir" id="sue">¡Seguir mi sueño!</button>
+        </div>
+        <img src="img/cohete.png" alt="" width="150" height="150" class="cohete">
+    </section>
+    <!--Sección de sueños-->
+    <section class="second-section" id="second-section" style="display: none">
+            <div class="azul">
+                <h1 class="wayak-1">Wayak</h1>
+            </div>
+            <div class="blanco-1">
+                <h2 class="dreams">¿Cuál es tu sueño?</h2>
+                <a href="#" class="btn-travel" id="btn-travel"><img src="img/007suitcase_113728.png" alt="icon-travel"></a>
+                <a href="#" class="btn-house" id="btn-house"><img src="img/house-icon_34406.png" alt="icon-house"></a>
+                <a href="#" class="btn-car" id="btn-car"><img src="img/car-electric_121944.png" alt="icon-car"></a>
+                <a href="#" class="btn-retirement" id="btn-retirement"><img src="img/mecedora.png" alt="icon-retirement"></a>
+            </div>
+    </section>
+   <!--Sección de finanzas personales-->
+   <section class="finanzas-personales" id="finanzasperso" style="display: none">
+       <div class="azul">
+           <h1 class="wayak-1">Wayak</h1>
+       </div>
+       <div class="blanco">
+           <table class="tabla-finanzas">
+               <tr>
+                   <th class="ingreso">Ingreso</th>
+                   <th class="organizacion">Organización de gastos</th>
+               </tr>
+               <tr>
+                   <td>Gastos</td>
+                   <td>Monto designado</td>
+                   <td>Sobrante después de gastos</td>
+                   <td>Días de pago</td>
+               </tr>
+           </table>
+       </div>
+   </section>
+   <section class="four-section" id="four-section" style="display: none">
+        <div class="azul">
+            <img class="Nivel" src="img/thermometer-1_icon-icons.com_62244.png" alt="">
+            <p id="unaño"> &lt;---  ¡Ya tienes 1 año de aportaciones!</p>
+            <p id="seismeses"> &lt;---  ¡Ya tienes 6 meses de aportaciones!</p>
+            <p id="afore"> &lt;---  ¡Ya tienes tu afore!</p>
+        </div>
+        <div class="blanco">
+            <img class="Retiro" src="img/mecedora.png" alt="">
+            <p id="retiro">Para tener un retiro soñado, necesitas saber cuánto quisieras recibir cada mes a partir de que ya no trabajes.</p>
+        </div>
+        <div class="pensión">
+            <p class="mensual">Pensión mensual: </p>
+        </div>
+        <input type="number" placeholder="Ingresar cantidad" class="cantidad">
+        <div>
+            <ul>
+                <p>Cálculo</p>
+                <li>Edad Actual</li>
+                <input type="number" name="" id="Actual" placeholder="Edad actual">
+                <li>Edad de Retiro</li>
+                <input type="number" name="" id="retiro" placeholder="Edad de Retiro">
+                <li>Ahorro Total</li>
+                <input type="number" name="" id="Actual" placeholder="Ahorro actual ó 0">
+            </ul>
+        </div>
+        <div>
+            <p>Considerando que la esperanza de vida en México es de 76 años, la cantidad que debes ahorrar cada mes para tu retiro soñado es:</p>
+        </div>
+    </section>
+  
+    <script src="main.js"></script>
+       
+</body>
+
+
+</html>
