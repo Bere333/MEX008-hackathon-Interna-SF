@@ -43,8 +43,32 @@ realizarCalculo.addEventListener("click", () => {
     let edadReti = document.getElementById("edad-Retiro").value;
     let edadRetiro = parseInt(edadReti);
     console.log(edadRetiro);
-    
+    let pensionDese = document.getElementById("pension-Deseada").value;
+    let pensionDeseada = parseInt(pensionDese);
+    console.log(pensionDeseada);
+    let ahorro = document.getElementById("ahorro").value;
+    let loQueSeAhorro = parseInt(ahorro);
+    console.log(loQueSeAhorro);
     let aParaPension = edadRetiro - edadActual;
     console.log(aParaPension);
+    let mesesPensionada = aParaPension*12;
+    console.log(mesesPensionada);
+    let ahorroNecesario = mesesPensionada*pensionDeseada;
+    console.log(ahorroNecesario);
+    let montoAahorra = ahorroNecesario - loQueSeAhorro;
+    console.log(montoAahorra);
+    let aParaAhorrar = 65 - edadActual;
+    console.log(aParaAhorrar);
+    let mesesPorAhorrar = aParaAhorrar*12;
+    console.log(mesesPorAhorrar);
+    let montoMensualAahorrar = montoAahorra/mesesPorAhorrar;
+    console.log(montoMensualAahorrar);
+    
+    
+    
+    
+    
+
+    
     
 }) 
