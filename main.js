@@ -70,3 +70,4 @@ realizarCalculo.addEventListener("click", () => {
     root.innerHTML = montoM;
     
 }) 
+
