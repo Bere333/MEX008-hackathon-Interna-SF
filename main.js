@@ -63,12 +63,10 @@ realizarCalculo.addEventListener("click", () => {
     console.log(mesesPorAhorrar);
     let montoMensualAahorrar = montoAahorra/mesesPorAhorrar;
     console.log(montoMensualAahorrar);
-    
-    
-    
-    
-    
-
-    
+    let montoMensu = montoMensualAahorrar.toFixed(2);
+    let montoM = montoMensu.toString()
+    console.log(montoM);
+    let root = document.getElementById("root");
+    root.innerHTML = montoM;
     
 }) 
