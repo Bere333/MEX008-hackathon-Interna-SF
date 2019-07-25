@@ -34,3 +34,17 @@ retiro.addEventListener("click", () => {
    let secSue = document.getElementById("four-section");
    secSue.style.display = "block";
 })
+let realizarCalculo = document.getElementById("hacer-cal");
+realizarCalculo.addEventListener("click", () => {
+    let edadAc = document.getElementById("edad-Actual").value;
+    let edadActual = parseInt(edadAc);
+    console.log(edadActual);
+    console.log(typeof edadActual);
+    let edadReti = document.getElementById("edad-Retiro").value;
+    let edadRetiro = parseInt(edadReti);
+    console.log(edadRetiro);
+    
+    let aParaPension = edadRetiro - edadActual;
+    console.log(aParaPension);
+    
+}) 

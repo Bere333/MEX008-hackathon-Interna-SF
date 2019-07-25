@@ -375,7 +375,7 @@
     height: 200px;
     position: relative;
     left: 140px;
-    bottom: 300px;
+    bottom: 319px;
  }
  .vida{
      position: relative;
@@ -388,6 +388,12 @@
     background-color: #DFFBFF;
     border: none;
     box-shadow: 2px 2px 10px #666;  
+ }
+ .hacer-cal{
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    box-shadow: 2px 2px 10px #666;
  }
  
 
